@@ -14,6 +14,9 @@ class City(models.Model):
     def __str__(self):
         return self.name
 
+    class Meta:
+        verbose_name_plural = "Cities"
+
 
 class Country(models.Model):
     name = models.CharField(
@@ -22,3 +25,6 @@ class Country(models.Model):
 
     def __str__(self):
         return self.name
+
+    class Meta:
+        verbose_name_plural = "Countries"
