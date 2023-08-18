@@ -1,5 +1,5 @@
 from django.http import JsonResponse
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from related_dropdown.world.models import Country, City
 
 
@@ -20,3 +20,16 @@ def get_details(request):
 
     return JsonResponse({'cities': []})
 
+
+def city_details(request, pk):
+    city = get_object_or_404(City, pk=pk)
+    return render(request, 'city_details.html', {'city': city})
+
+
+def get_city_pk(request):
+    city_name = request.GET.get('city')
+    city = City.objects.filter(name=city_name).first()
+    if city:
+        return JsonResponse({'pk': city.pk})
+    else:
+        return JsonResponse({'pk': None})

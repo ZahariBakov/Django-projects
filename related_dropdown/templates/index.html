@@ -20,6 +20,21 @@
                     });
                 });
             });
+
+            $('#goButton').click(function () {
+                var selectedCity = $('#selectcities').val();
+                if (selectedCity) {
+                    $.get('/get-city-pk', {city: selectedCity}, function (data) {
+                        if (data.pk) {
+                            window.location.href = '/city/' + data.pk + '/';
+                        } else {
+                            alert('City not found.');
+                        }
+                    });
+                } else {
+                    alert('Please select a city before clicking GO.');
+                }
+            });
         });
     </script>
 
@@ -55,19 +70,23 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Select a Country and City</h1>
+<div class="container">
+    <h1>Select a Country and City</h1>
 
-        <select id="selectcountries">
-            <option value="">Select a country</option>
-            {% for country in countries %}
-                <option value="{{ country.name }}">{{ country.name }}</option>
-            {% endfor %}
-        </select>
+    <select id="selectcountries">
+        <option value="">Select a country</option>
+        {% for country in countries %}
+            <option value="{{ country.name }}">{{ country.name }}</option>
+        {% endfor %}
+    </select>
 
-        <select id="selectcities">
-            <option value="">Select a city</option>
-        </select>
+    <select id="selectcities">
+        <option value="">Select a city</option>
+    </select>
+
+    <div class="button">
+        <a id="goButton" href="#">GO</a>
     </div>
+</div>
 </body>
 </html>
