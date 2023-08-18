@@ -1,2 +1,3 @@
 # Django-projects
-My Django projects
+
+Django projects where I created Dependent/Chained dropdowns list.
