@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- ... your head content ... -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#selectcountries').change(function () {
+                var country_name = $(this).val();
+
+                $.get('/get-details', {cnt: country_name}, function (data) {
+                    var citiesSelect = $('#selectcities');
+                    citiesSelect.empty();
+
+                    $.each(data.cities, function (index, cityName) {
+                        citiesSelect.append($('<option>', {
+                            value: cityName,
+                            text: cityName
+                        }));
+                    });
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <select id="selectcountries">
+        <option value="">Select a country</option>
+        {% for country in countries %}
+            <option value="{{ country.name }}">{{ country.name }}</option>
+        {% endfor %}
+    </select>
+
+    <select id="selectcities">
+        <option value="">Select a city</option>
+    </select>
+</body>
+</html>
+
