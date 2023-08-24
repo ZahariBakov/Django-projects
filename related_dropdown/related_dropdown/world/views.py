@@ -23,7 +23,15 @@ def get_details(request):
 
 def city_details(request, pk):
     city = get_object_or_404(City, pk=pk)
-    return render(request, 'city_details.html', {'city': city})
+    attractions = city.tourist_attractions.split(', ')
+    events = city.events_and_festivals.split(', ')
+
+    context = {
+        'city': city,
+        'attractions': attractions,
+        'events': events,
+    }
+    return render(request, 'city_details.html', context)
 
 
 def get_city_pk(request):

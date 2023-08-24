@@ -5,9 +5,38 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>{{ city.name }}</title>
 </head>
 <body>
-    <h1>{{ city }}</h1>
+    <h1>{{ city.name }}</h1>
+
+    <p><strong>Country:</strong> {{ city.country.name }}</p>
+
+    <h2>City Information</h2>
+    <p>{{ city.description }}</p>
+
+    <h2>Population</h2>
+    <p>Current population: {{ city.current_population }} million</p>
+    <p>Permanent address population: {{ city.permanent_address_population }} million</p>
+
+    <h2>Geographic Location</h2>
+    <p>{{ city.geographic_location }}</p>
+
+    <h2>Tourist Attractions</h2>
+    <ul>
+        {% for attraction in attractions %}
+            <li>{{ attraction.strip }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Culinary Delights</h2>
+    <p>{{ city.culinary_delights }}</p>
+
+    <h2>Events and Festivals</h2>
+    <ul>
+        {% for event in events %}
+            <li>{{ event }}</li>
+        {% endfor %}
+    </ul>
 </body>
 </html>
