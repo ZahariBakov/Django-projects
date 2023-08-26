@@ -14,7 +14,6 @@
       "events_and_festivals": "Sabantuy, Kazan International Festival of Muslim Cinema"
     }
   },
-
   {
     "model": "world.city",
     "pk": 55,
@@ -30,7 +29,6 @@
       "events_and_festivals": "Yekaterinburg Night, Red Line Festival"
     }
   },
-
   {
     "model": "world.city",
     "pk": 54,
@@ -46,7 +44,6 @@
       "events_and_festivals": "Novosibirsk International Film Festival"
     }
   },
-
   {
     "model": "world.city",
     "pk": 53,
@@ -62,7 +59,6 @@
       "events_and_festivals": "White Nights Festival, International Economic Forum"
     }
   },
-
   {
     "model": "world.city",
     "pk": 52,
@@ -76,6 +72,606 @@
       "tourist_attractions": "Red Square, Kremlin, St. Basil's Cathedral",
       "culinary_delights": "Russian cuisine, including dishes like stroganoff and pirozhki.",
       "events_and_festivals": "Moscow International Film Festival, City Day Celebration"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 51,
+    "fields": {
+      "name": "Chengdu",
+      "country": 11,
+      "description": "Chengdu is the capital of China's Sichuan province, famous for its relaxed lifestyle, spicy cuisine, and traditional tea culture.",
+      "current_population": 16.8,
+      "permanent_address_population": 14.4,
+      "geographic_location": "Location: Southwest China, situated on the Chengdu Plain.",
+      "tourist_attractions": "Sichuan Opera, Wuhou Shrine, Jinli Ancient Street",
+      "culinary_delights": "Sichuan cuisine, renowned for dishes like hotpot and mapo tofu.",
+      "events_and_festivals": "Chengdu International Panda Lantern Festival, Sichuan Tourism Festival"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 50,
+    "fields": {
+      "name": "Shenzhen",
+      "country": 11,
+      "description": "Shenzhen is a major city in China's Guangdong province, known for its rapid urban development, modern architecture, and bustling economy.",
+      "current_population": 13,
+      "permanent_address_population": 13,
+      "geographic_location": "Southern China, adjacent to Hong Kong.",
+      "tourist_attractions": "Splendid China Folk Village, OCT Loft Creative Culture Park",
+      "culinary_delights": "Cantonese cuisine, offering dim sum and roasted meats.",
+      "events_and_festivals": "Shenzhen International Biotech Summit, China (Shenzhen) International Cultural Industries Fair"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 49,
+    "fields": {
+      "name": "Guangzhou",
+      "country": 11,
+      "description": "Guangzhou is a major city in China's Guangdong province, known for its rich history, vibrant culture, and modern development.",
+      "current_population": 14,
+      "permanent_address_population": 13,
+      "geographic_location": "Southern China, on the Pearl River.",
+      "tourist_attractions": "Canton Tower, Shamian Island, Chimelong Paradise",
+      "culinary_delights": "Cantonese cuisine, famous for dim sum and roasted meats.",
+      "events_and_festivals": "Canton Fair, Double Ninth Festival"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 48,
+    "fields": {
+      "name": "Shanghai",
+      "country": 11,
+      "description": "Shanghai is China's largest city and a global financial hub, known for its futuristic skyline and rich cultural heritage.",
+      "current_population": 27,
+      "permanent_address_population": 24,
+      "geographic_location": "Eastern China, on the Yangtze River.",
+      "tourist_attractions": "The Bund, Yu Garden, Oriental Pearl Tower",
+      "culinary_delights": "Shanghainese cuisine, featuring xiaolongbao and scallion oil noodles.",
+      "events_and_festivals": "Shanghai International Film Festival, Chinese New Year"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 47,
+    "fields": {
+      "name": "Beijing",
+      "country": 11,
+      "description": "Beijing is the capital of China and a historic city, known for its ancient sites, modern architecture, and cultural landmarks.",
+      "current_population": 21,
+      "permanent_address_population": 21,
+      "geographic_location": "Northern China, situated on the northern edge of the North China Plain.",
+      "tourist_attractions": "Forbidden City, Great Wall of China, Summer Palace",
+      "culinary_delights": "Peking cuisine, famous for Peking duck and jianbing.",
+      "events_and_festivals": "National Day Golden Week, Beijing International Film Festival"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 46,
+    "fields": {
+      "name": "Sapporo",
+      "country": 10,
+      "description": "Sapporo is the largest city on the northern Japanese island of Hokkaido. It is known for its winter festivals, vibrant arts scene, and outdoor recreational activities.",
+      "current_population": 1.9,
+      "permanent_address_population": 1.9,
+      "geographic_location": "Hokkaido, Japan.",
+      "tourist_attractions": "Sapporo Snow Festival, Odori Park, Sapporo Beer Museum",
+      "culinary_delights": "Hokkaido cuisine, featuring dishes like ramen and seafood.",
+      "events_and_festivals": "Sapporo Lilac Festival, Yosakoi Soran Festival"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 45,
+    "fields": {
+      "name": "Yokohama",
+      "country": 10,
+      "description": "Yokohama is a major port city near Tokyo, known for its stunning waterfront, diverse cultural attractions, and international atmosphere.",
+      "current_population": 3.8,
+      "permanent_address_population": 3.8,
+      "geographic_location": "Kanagawa Prefecture, Japan.",
+      "tourist_attractions": "Yokohama Chinatown, Landmark Tower, Sankeien Garden",
+      "culinary_delights": "Japanese cuisine, including sushi and ramen.",
+      "events_and_festivals": "Yokohama Red Brick Warehouse Jazz Festival, Yokohama International Passenger Terminal Beer Garden"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 44,
+    "fields": {
+      "name": "Kyoto",
+      "country": 10,
+      "description": "Kyoto is a historic city in Japan, known for its numerous temples, traditional tea houses, and beautiful cherry blossoms.",
+      "current_population": 1.5,
+      "permanent_address_population": 1.5,
+      "geographic_location": "Kansai region, Japan.",
+      "tourist_attractions": "Kiyomizu-dera Temple, Fushimi Inari Taisha, Arashiyama Bamboo Grove",
+      "culinary_delights": "Kyoto cuisine, featuring kaiseki and yudofu.",
+      "events_and_festivals": "Gion Matsuri, Hanatoro Illumination"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 43,
+    "fields": {
+      "name": "Osaka",
+      "country": 10,
+      "description": "Osaka is a vibrant city in Japan, known for its modern architecture, bustling street food scene, and lively entertainment districts.",
+      "current_population": 2.7,
+      "permanent_address_population": 2.7,
+      "geographic_location": "Kansai region, Japan.",
+      "tourist_attractions": "Osaka Castle, Dotonbori, Universal Studios Japan",
+      "culinary_delights": "Osakan cuisine, famous for takoyaki and okonomiyaki.",
+      "events_and_festivals": "Tenjin Matsuri, Sumiyoshi Taisha O-harae Festival"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 42,
+    "fields": {
+      "name": "Tokyo",
+      "country": 10,
+      "description": "Tokyo is the capital and largest city of Japan, known for its dynamic urban landscape, cutting-edge technology, and diverse neighborhoods.",
+      "current_population": 13.9,
+      "permanent_address_population": 13.9,
+      "geographic_location": "Kanto region, Japan.",
+      "tourist_attractions": "Shibuya Crossing, Tokyo Skytree, Meiji Shrine",
+      "culinary_delights": "Tokyo cuisine, featuring sushi, tempura, and more.",
+      "events_and_festivals": "Cherry Blossom Festival, Sumidagawa Fireworks Festival"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 41,
+    "fields": {
+      "name": "Bilbao",
+      "country": 9,
+      "description": "Bilbao is a vibrant city in the Basque Country, known for its avant-garde architecture, cultural institutions, and stunning landscapes.",
+      "current_population": 0.3,
+      "permanent_address_population": 0.3,
+      "geographic_location": "Northern Spain, near the Bay of Biscay.",
+      "tourist_attractions": "Guggenheim Museum Bilbao, Casco Viejo, Artxanda Funicular",
+      "culinary_delights": "Basque cuisine, featuring pintxos and bacalao.",
+      "events_and_festivals": "Aste Nagusia, Bilbao BBK Live"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 40,
+    "fields": {
+      "name": "Seville",
+      "country": 9,
+      "description": "Seville is the capital of Andalusia, Spain, known for its historic architecture, flamenco culture, and lively festivals.",
+      "current_population": 0.7,
+      "permanent_address_population": 0.7,
+      "geographic_location": "Southern Spain, along the Guadalquivir River.",
+      "tourist_attractions": "Alcazar of Seville, Seville Cathedral, Plaza de España",
+      "culinary_delights": "Andalusian cuisine, featuring tapas and gazpacho.",
+      "events_and_festivals": "Feria de Abril, Semana Santa"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 39,
+    "fields": {
+      "name": "Valencia",
+      "country": 9,
+      "description": "Valencia is a coastal city in Spain, known for its futuristic architecture, vibrant arts scene, and stunning beaches.",
+      "current_population": 0.8,
+      "permanent_address_population": 0.8,
+      "geographic_location": "Eastern Spain, along the Mediterranean Sea.",
+      "tourist_attractions": "City of Arts and Sciences, Central Market, Malvarrosa Beach",
+      "culinary_delights": "Valencian cuisine, famous for paella and horchata.",
+      "events_and_festivals": "Las Fallas, La Tomatina"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 38,
+    "fields": {
+      "name": "Barcelona",
+      "country": 9,
+      "description": "Barcelona is a cosmopolitan city in Spain, known for its unique architecture, cultural diversity, and lively street life.",
+      "current_population": 1.6,
+      "permanent_address_population": 1.6,
+      "geographic_location": "Northeastern Spain, along the Mediterranean Sea.",
+      "tourist_attractions": "Sagrada Familia, Park Güell, La Rambla",
+      "culinary_delights": "Catalan cuisine, featuring tapas and seafood.",
+      "events_and_festivals": "La Mercè Festival, Primavera Sound"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 37,
+    "fields": {
+      "name": "Madrid",
+      "country": 9,
+      "description": "Madrid is the capital and largest city of Spain, known for its rich history, world-class museums, and vibrant nightlife.",
+      "current_population": 3.3,
+      "permanent_address_population": 3.3,
+      "geographic_location": "Central Spain, situated on the Manzanares River.",
+      "tourist_attractions": "Prado Museum, Royal Palace of Madrid, Retiro Park",
+      "culinary_delights": "Spanish cuisine, offering dishes like tapas and paella.",
+      "events_and_festivals": "San Isidro Festival, Madrid Pride"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 36,
+    "fields": {
+      "name": "Florence",
+      "country": 8,
+      "description": "Florence is the capital of Italy's Tuscany region, known for its Renaissance art, historic architecture, and romantic ambiance.",
+      "current_population": 0.4,
+      "permanent_address_population": 0.4,
+      "geographic_location": "Central Italy, along the Arno River.",
+      "tourist_attractions": "Uffizi Gallery, Florence Cathedral, Ponte Vecchio",
+      "culinary_delights": "Tuscan cuisine, featuring dishes like ribollita and bistecca alla fiorentina.",
+      "events_and_festivals": "Calcio Storico, Festa di San Giovanni"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 35,
+    "fields": {
+      "name": "Turin",
+      "country": 8,
+      "description": "Turin is a cultural city in northern Italy, known for its Baroque architecture, automobile industry, and exquisite cuisine.",
+      "current_population": 0.9,
+      "permanent_address_population": 0.9,
+      "geographic_location": "Northern Italy, near the Alps.",
+      "tourist_attractions": "Mole Antonelliana, Royal Palace of Turin, Egyptian Museum",
+      "culinary_delights": "Piedmontese cuisine, famous for dishes like agnolotti and bagna cauda.",
+      "events_and_festivals": "Turin Film Festival, Gianduiotto Chocolate Festival"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 34,
+    "fields": {
+      "name": "Naples",
+      "country": 8,
+      "description": "Naples is a historic city in southern Italy, known for its rich history, vibrant street life, and delicious food.",
+      "current_population": 0.9,
+      "permanent_address_population": 0.9,
+      "geographic_location": "Southern Italy, along the Gulf of Naples.",
+      "tourist_attractions": "Naples National Archaeological Museum, Mount Vesuvius, Spaccanapoli",
+      "culinary_delights": "Neapolitan cuisine, famous for pizza and sfogliatella.",
+      "events_and_festivals": "Pizza Festival, Feast of San Gennaro"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 33,
+    "fields": {
+      "name": "Milan",
+      "country": 8,
+      "description": "Milan is a fashion and financial hub in Italy, known for its iconic fashion scene, historic architecture, and cultural institutions.",
+      "current_population": 1.4,
+      "permanent_address_population": 1.4,
+      "geographic_location": "Northern Italy, situated in the Po Valley.",
+      "tourist_attractions": "Duomo di Milano, Leonardo da Vinci's Last Supper, Galleria Vittorio Emanuele II",
+      "culinary_delights": "Milanese cuisine, offering dishes like risotto and ossobuco.",
+      "events_and_festivals": "Milan Fashion Week, Salone del Mobile"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 32,
+    "fields": {
+      "name": "Rome",
+      "country": 8,
+      "description": "Rome is the capital of Italy and a city steeped in history, known for its ancient ruins, art treasures, and iconic landmarks.",
+      "current_population": 2.9,
+      "permanent_address_population": 2.9,
+      "geographic_location": "Central Italy, along the Tiber River.",
+      "tourist_attractions": "Colosseum, Roman Forum, Vatican City",
+      "culinary_delights": "Roman cuisine, featuring dishes like carbonara and supplì.",
+      "events_and_festivals": "Estate Romana, Natale di Roma"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 31,
+    "fields": {
+      "name": "Adelaide",
+      "country": 7,
+      "description": "Adelaide is the capital of South Australia, known for its wine regions, cultural festivals, and coastal beauty.",
+      "current_population": 1.3,
+      "permanent_address_population": 1.3,
+      "geographic_location": "Southern Australia, along the Gulf St Vincent.",
+      "tourist_attractions": "Adelaide Botanic Garden, Glenelg Beach, Adelaide Oval",
+      "culinary_delights": "Australian cuisine, featuring dishes like meat pies and vegemite.",
+      "events_and_festivals": "Adelaide Fringe Festival, Santos Tour Down Under"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 30,
+    "fields": {
+      "name": "Perth",
+      "country": 7,
+      "description": "Perth is the capital of Western Australia, known for its beautiful beaches, outdoor lifestyle, and vibrant arts scene.",
+      "current_population": 2.1,
+      "permanent_address_population": 2.1,
+      "geographic_location": "Western Australia, situated on the southwestern coast.",
+      "tourist_attractions": "Kings Park and Botanic Garden, Cottesloe Beach, Fremantle Markets",
+      "culinary_delights": "Australian cuisine, offering fresh seafood and barbecued meats.",
+      "events_and_festivals": "Perth Festival, Sculpture by the Sea"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 29,
+    "fields": {
+      "name": "Brisbane",
+      "country": 7,
+      "description": "Brisbane is the capital of Queensland, known for its sunny climate, outdoor activities, and vibrant cultural scene.",
+      "current_population": 2.4,
+      "permanent_address_population": 2.4,
+      "geographic_location": "Southeastern Queensland, along the Brisbane River.",
+      "tourist_attractions": "South Bank Parklands, Lone Pine Koala Sanctuary, Story Bridge",
+      "culinary_delights": "Australian cuisine, featuring dishes like Moreton Bay bugs and Tim Tams.",
+      "events_and_festivals": "Brisbane Festival, Paniyiri Greek Festival"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 28,
+    "fields": {
+      "name": "Melbourne",
+      "country": 7,
+      "description": "Melbourne is the capital of Victoria and a cultural hub, known for its coffee culture, arts scene, and diverse neighborhoods.",
+      "current_population": 5.1,
+      "permanent_address_population": 5.1,
+      "geographic_location": "Southeastern Australia, situated on Port Phillip Bay.",
+      "tourist_attractions": "Royal Botanic Gardens, Federation Square, National Gallery of Victoria",
+      "culinary_delights": "Melbourne cuisine, offering a variety of international dishes and cafe culture.",
+      "events_and_festivals": "Melbourne International Comedy Festival, Australian Open"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 27,
+    "fields": {
+      "name": "Sydney",
+      "country": 7,
+      "description": "Sydney is Australia's largest city and a global icon, known for its stunning harbor, famous landmarks, and vibrant urban lifestyle.",
+      "current_population": 5.4,
+      "permanent_address_population": 5.4,
+      "geographic_location": "Southeastern Australia, situated on the Tasman Sea.",
+      "tourist_attractions": "Sydney Opera House, Sydney Harbour Bridge, Bondi Beach",
+      "culinary_delights": "Australian cuisine with international influences, offering seafood and multicultural flavors.",
+      "events_and_festivals": "Vivid Sydney, Sydney Festival"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 26,
+    "fields": {
+      "name": "Ottawa",
+      "country": 6,
+      "description": "Ottawa is the capital of Canada and known for its historic landmarks, government institutions, and cultural festivals.",
+      "current_population": 0.99,
+      "permanent_address_population": 0.99,
+      "geographic_location": "Southeastern Ontario, situated on the Ottawa River.",
+      "tourist_attractions": "Parliament Hill, Rideau Canal, National Gallery of Canada",
+      "culinary_delights": "Canadian cuisine, offering dishes like poutine and butter tarts.",
+      "events_and_festivals": "Winterlude, Canadian Tulip Festival"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 25,
+    "fields": {
+      "name": "Calgary",
+      "country": 6,
+      "description": "Calgary is a major city in Alberta, known for its outdoor activities, annual rodeo, and modern skyline.",
+      "current_population": 1.2,
+      "permanent_address_population": 1.2,
+      "geographic_location": "Southern Alberta, situated at the confluence of the Bow and Elbow Rivers.",
+      "tourist_attractions": "Calgary Stampede, Calgary Tower, Prince's Island Park",
+      "culinary_delights": "Albertan cuisine, featuring dishes like Alberta beef and Saskatoon berries.",
+      "events_and_festivals": "Calgary Stampede, Calgary Folk Music Festival"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 24,
+    "fields": {
+      "name": "Montreal",
+      "country": 6,
+      "description": "Montreal is the largest city in Quebec, known for its vibrant arts scene, historic architecture, and cultural diversity.",
+      "current_population": 1.7,
+      "permanent_address_population": 1.7,
+      "geographic_location": "Southern Quebec, situated on the Island of Montreal.",
+      "tourist_attractions": "Old Port of Montreal, Notre-Dame Basilica, Mount Royal Park",
+      "culinary_delights": "Montreal cuisine, famous for dishes like smoked meat sandwiches and poutine.",
+      "events_and_festivals": "Montreal International Jazz Festival, Montreal World Film Festival"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 23,
+    "fields": {
+      "name": "Vancouver",
+      "country": 6,
+      "description": "Vancouver is a coastal city in British Columbia, known for its stunning natural scenery, diverse neighborhoods, and outdoor recreation.",
+      "current_population": 2.5,
+      "permanent_address_population": 2.5,
+      "geographic_location": "Southwestern British Columbia, situated on the Pacific Ocean.",
+      "tourist_attractions": "Stanley Park, Granville Island, Capilano Suspension Bridge",
+      "culinary_delights": "West Coast cuisine, offering fresh seafood and farm-to-table ingredients.",
+      "events_and_festivals": "Vancouver International Film Festival, Vancouver Cherry Blossom Festival"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 22,
+    "fields": {
+      "name": "Toronto",
+      "country": 6,
+      "description": "Toronto is the capital of Ontario and Canada's largest city, known for its diverse culture, iconic skyline, and vibrant arts scene.",
+      "current_population": 2.9,
+      "permanent_address_population": 2.9,
+      "geographic_location": "Southern Ontario, situated on the northern shore of Lake Ontario.",
+      "tourist_attractions": "CN Tower, Royal Ontario Museum, Toronto Islands",
+      "culinary_delights": "Toronto cuisine, offering a wide range of international dishes and food markets.",
+      "events_and_festivals": "Toronto International Film Festival, Caribana Festival"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 21,
+    "fields": {
+      "name": "Liverpool",
+      "country": 5,
+      "description": "Liverpool is a major city in England, known for its maritime history, vibrant music scene, and cultural heritage.",
+      "current_population": 0.5,
+      "permanent_address_population": 0.5,
+      "geographic_location": "Northwest England, situated on the eastern bank of the River Mersey.",
+      "tourist_attractions": "The Beatles Story, Albert Dock, Liverpool Cathedral",
+      "culinary_delights": "Traditional British cuisine, including dishes like scouse and meat pies.",
+      "events_and_festivals": "International Beatleweek, Liverpool International Music Festival"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 20,
+    "fields": {
+      "name": "Edinburgh",
+      "country": 5,
+      "description": "Edinburgh is the capital of Scotland, known for its historic and architectural significance, as well as its annual festivals.",
+      "current_population": 0.5,
+      "permanent_address_population": 0.5,
+      "geographic_location": "Southeast Scotland, situated on the southern shore of the Firth of Forth.",
+      "tourist_attractions": "Edinburgh Castle, Holyrood Palace, Arthur's Seat",
+      "culinary_delights": "Scottish cuisine, offering dishes like haggis and Scotch broth.",
+      "events_and_festivals": "Edinburgh Festival Fringe, Edinburgh International Book Festival"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 19,
+    "fields": {
+      "name": "Birmingham",
+      "country": 5,
+      "description": "Birmingham is a major city in England, known for its industrial history, diverse culture, and modern developments.",
+      "current_population": 1.1,
+      "permanent_address_population": 1.1,
+      "geographic_location": "West Midlands, situated in the heart of England.",
+      "tourist_attractions": "Cadbury World, Birmingham Museum and Art Gallery, Bullring Shopping Centre",
+      "culinary_delights": "Brummie cuisine, featuring dishes like Balti curries and pork scratchings.",
+      "events_and_festivals": "Birmingham International Jazz Festival, Frankfurt Christmas Market"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 18,
+    "fields": {
+      "name": "Manchester",
+      "country": 5,
+      "description": "Manchester is a city in England, known for its rich industrial heritage, influential music scene, and cultural diversity.",
+      "current_population": 0.5,
+      "permanent_address_population": 0.5,
+      "geographic_location": "Northwest England, situated on the confluence of the rivers Medlock and Irwell.",
+      "tourist_attractions": "The John Rylands Library, Manchester Museum, Old Trafford",
+      "culinary_delights": "Northern cuisine, offering dishes like black pudding and Eccles cakes.",
+      "events_and_festivals": "Manchester International Festival, Manchester Pride"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 17,
+    "fields": {
+      "name": "London",
+      "country": 5,
+      "description": "London is the capital of England and the United Kingdom, known for its historical landmarks, cultural institutions, and global influence.",
+      "current_population": 8.8,
+      "permanent_address_population": 8.8,
+      "geographic_location": "Southeast England, situated along the River Thames.",
+      "tourist_attractions": "The British Museum, Buckingham Palace, Tower of London",
+      "culinary_delights": "Diverse cuisine from around the world, reflecting London's multicultural identity.",
+      "events_and_festivals": "Notting Hill Carnival, Thames Festival"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 16,
+    "fields": {
+      "name": "Nice",
+      "country": 4,
+      "description": "Nice is a city in the French Riviera, known for its stunning coastline, Mediterranean climate, and vibrant cultural scene.",
+      "current_population": 0.3,
+      "permanent_address_population": 0.3,
+      "geographic_location": "French Riviera, situated on the southeastern coast of France.",
+      "tourist_attractions": "Promenade des Anglais, Castle Hill, Marc Chagall National Museum",
+      "culinary_delights": "Niçois cuisine, featuring dishes like Salade Niçoise and Socca.",
+      "events_and_festivals": "Nice Carnival, Nice Jazz Festival"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 15,
+    "fields": {
+      "name": "Toulouse",
+      "country": 4,
+      "description": "Toulouse is a city in southern France, known for its aerospace industry, historic architecture, and vibrant nightlife.",
+      "current_population": 0.5,
+      "permanent_address_population": 0.5,
+      "geographic_location": "Southern France, situated on the banks of the Garonne River.",
+      "tourist_attractions": "Capitole de Toulouse, Cité de l'espace, Basilica of Saint-Sernin",
+      "culinary_delights": "Toulousain cuisine, offering dishes like cassoulet and foie gras.",
+      "events_and_festivals": "Toulouse Space Show, Toulouse International Art Festival"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 14,
+    "fields": {
+      "name": "Lyon",
+      "country": 4,
+      "description": "Lyon is a city in east-central France, known for its gastronomy, historical landmarks, and UNESCO-listed Old Town.",
+      "current_population": 0.5,
+      "permanent_address_population": 0.5,
+      "geographic_location": "East-central France, situated at the confluence of the Rhône and Saône rivers.",
+      "tourist_attractions": "Basilica of Notre-Dame de Fourvière, Vieux Lyon, Parc de la Tête d'Or",
+      "culinary_delights": "Lyonnaise cuisine, famous for dishes like coq au vin and quenelles.",
+      "events_and_festivals": "Fête des Lumières, Nuits Sonores Festival"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 13,
+    "fields": {
+      "name": "Marseille",
+      "country": 4,
+      "description": "Marseille is a port city in southern France, known for its diverse culture, historic sites, and Mediterranean charm.",
+      "current_population": 0.8,
+      "permanent_address_population": 0.8,
+      "geographic_location": "Southern France, situated on the Mediterranean coast.",
+      "tourist_attractions": "Old Port of Marseille, Basilique Notre-Dame de la Garde, Calanques National Park",
+      "culinary_delights": "Provençal cuisine, featuring dishes like bouillabaisse and tapenade.",
+      "events_and_festivals": "Marseille Jazz Festival, Fiesta des Suds"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 12,
+    "fields": {
+      "name": "Paris",
+      "country": 4,
+      "description": "Paris is the capital of France, known for its iconic landmarks, world-class museums, and romantic ambiance.",
+      "current_population": 2.1,
+      "permanent_address_population": 2.1,
+      "geographic_location": "North-central France, situated on the River Seine.",
+      "tourist_attractions": "Eiffel Tower, Louvre Museum, Notre-Dame Cathedral",
+      "culinary_delights": "French cuisine, offering gourmet dishes like escargot and croissant.",
+      "events_and_festivals": "Bastille Day, Paris Fashion Week"
     }
   }
 ]
