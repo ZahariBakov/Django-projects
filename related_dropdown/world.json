@@ -1,0 +1,81 @@
+[
+  {
+    "model": "world.city",
+    "pk": 56,
+    "fields": {
+      "name": "Kazan",
+      "country": 12,
+      "description": "Kazan is the capital and largest city of the Republic of Tatarstan, Russia. It is known for its rich history, diverse culture, and stunning architecture.",
+      "current_population": 1.2,
+      "permanent_address_population": 1.4,
+      "geographic_location": "Eastern Europe, situated on the banks of the Volga River.",
+      "tourist_attractions": "Kazan Kremlin, Kul Sharif Mosque, Bauman Street",
+      "culinary_delights": "Tatar cuisine, including dishes like chak-chak and echpochmak.",
+      "events_and_festivals": "Sabantuy, Kazan International Festival of Muslim Cinema"
+    }
+  },
+
+  {
+    "model": "world.city",
+    "pk": 55,
+    "fields": {
+      "name": "Yekaterinburg",
+      "country": 12,
+      "description": "Yekaterinburg is a major city in the Ural Mountains of Russia. It is known for its industrial heritage, vibrant arts scene, and unique architecture.",
+      "current_population": 1.5,
+      "permanent_address_population": 1.4,
+      "geographic_location": "Ural Mountains, Russia.",
+      "tourist_attractions": "Church on the Blood, Yeltsin Center, Ganina Yama",
+      "culinary_delights": "Ural cuisine, featuring dishes like pelmeni and kholodets.",
+      "events_and_festivals": "Yekaterinburg Night, Red Line Festival"
+    }
+  },
+
+  {
+    "model": "world.city",
+    "pk": 54,
+    "fields": {
+      "name": "Novosibirsk",
+      "country": 12,
+      "description": "Novosibirsk is the largest city in Siberia and a key cultural and industrial hub. It's known for its thriving science and education institutions.",
+      "current_population": 1.6,
+      "permanent_address_population": 1.5,
+      "geographic_location": "Siberia, Russia.",
+      "tourist_attractions": "Novosibirsk Opera and Ballet Theatre, Akademgorodok",
+      "culinary_delights": "Siberian cuisine, famous for pelmeni and omul fish",
+      "events_and_festivals": "Novosibirsk International Film Festival"
+    }
+  },
+
+  {
+    "model": "world.city",
+    "pk": 53,
+    "fields": {
+      "name": "Saint Petersburg",
+      "country": 12,
+      "description": "Saint Petersburg is Russia's second-largest city and a cultural center, known for its impressive architecture, historic sites, and rich artistic heritage.",
+      "current_population": 5.4,
+      "permanent_address_population": 5.2,
+      "geographic_location": "Northwestern Russia, situated on the Neva River.",
+      "tourist_attractions": "Hermitage Museum, Peter and Paul Fortress, Church of the Savior on Spilled Blood",
+      "culinary_delights": "Russian cuisine, offering traditional dishes like borscht and blini.",
+      "events_and_festivals": "White Nights Festival, International Economic Forum"
+    }
+  },
+
+  {
+    "model": "world.city",
+    "pk": 52,
+    "fields": {
+      "name": "Moscow",
+      "country": 12,
+      "description": "Moscow is the capital and largest city of Russia, known for its iconic landmarks, vibrant nightlife, and cultural significance.",
+      "current_population": 12.5,
+      "permanent_address_population": 13.2,
+      "geographic_location": "Western Russia, situated on the Moskva River.",
+      "tourist_attractions": "Red Square, Kremlin, St. Basil's Cathedral",
+      "culinary_delights": "Russian cuisine, including dishes like stroganoff and pirozhki.",
+      "events_and_festivals": "Moscow International Film Festival, City Day Celebration"
+    }
+  }
+]
