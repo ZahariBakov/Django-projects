@@ -838,5 +838,65 @@
       "culinary_delights": "Bulgarian cuisine, featuring dishes like kebapche and tarator.",
       "events_and_festivals": "Sofia International Film Festival, Sofia Design Week"
     }
+  },
+  {
+    "model": "world.city",
+    "pk": 57,
+    "fields": {
+      "name": "Varna",
+      "country": 1,
+      "description": "Varna is a coastal city in Bulgaria, known for its beautiful beaches, historical sites, and vibrant summer tourism.",
+      "current_population": 0.4,
+      "permanent_address_population": 0.4,
+      "geographic_location": "Northeastern Bulgaria, situated on the Black Sea coast.",
+      "tourist_attractions": "Sea Garden, Varna Archaeological Museum, Dormition of the Mother of God Cathedral",
+      "culinary_delights": "Bulgarian cuisine, featuring dishes like mussels in garlic sauce and kavarma.",
+      "events_and_festivals": "Varna Summer International Music Festival, Kavarna Rock Fest"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 58,
+    "fields": {
+      "name": "Veliko Tarnovo",
+      "country": 1,
+      "description": "Veliko Tarnovo is a historic city in Bulgaria, known for its medieval architecture, Tsarevets Fortress, and cultural significance.",
+      "current_population": 0.2,
+      "permanent_address_population": 0.2,
+      "geographic_location": "Northern Bulgaria, situated on the Yantra River.",
+      "tourist_attractions": "Tsarevets Fortress, Samovodska Charshiya Complex, Asen's Monument",
+      "culinary_delights": "Bulgarian cuisine, featuring dishes like banitsa and kapama.",
+      "events_and_festivals": "Sound and Light Show at Tsarevets Fortress, International Folklore Festival"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 59,
+    "fields": {
+      "name": "Los Angeles",
+      "country": 2,
+      "description": "Los Angeles is a major city in the United States, known for its entertainment industry, diverse culture, and iconic landmarks.",
+      "current_population": 4,
+      "permanent_address_population": 4,
+      "geographic_location": "Southern California, situated on the Pacific coast.",
+      "tourist_attractions": "Hollywood Walk of Fame, Griffith Observatory, Santa Monica Pier",
+      "culinary_delights": "Diverse cuisine, featuring gourmet food trucks and international flavors.",
+      "events_and_festivals": "Academy Awards (Oscars), LA Pride Festival"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 60,
+    "fields": {
+      "name": "Chicago",
+      "country": 2,
+      "description": "Chicago is a major city in the United States, known for its architecture, blues music, and vibrant arts scene.",
+      "current_population": 2.7,
+      "permanent_address_population": 2.7,
+      "geographic_location": "Northeastern Illinois, situated on Lake Michigan.",
+      "tourist_attractions": "Millennium Park, Willis Tower (formerly Sears Tower), Navy Pier",
+      "culinary_delights": "Chicago-style deep-dish pizza, hot dogs, Italian beef sandwiches.",
+      "events_and_festivals": "Chicago Blues Festival, Lollapalooza"
+    }
   }
 ]
