@@ -673,5 +673,170 @@
       "culinary_delights": "French cuisine, offering gourmet dishes like escargot and croissant.",
       "events_and_festivals": "Bastille Day, Paris Fashion Week"
     }
+  },
+  {
+    "model": "world.city",
+    "pk": 11,
+    "fields": {
+      "name": "Cologne",
+      "country": 3,
+      "description": "Cologne is a city in western Germany, known for its stunning cathedral, rich history, and vibrant cultural scene.",
+      "current_population": 1.1,
+      "permanent_address_population": 1.1,
+      "geographic_location": "Western Germany, situated on the Rhine River.",
+      "tourist_attractions": "Cologne Cathedral, Hohenzollern Bridge, Chocolate Museum",
+      "culinary_delights": "Kölsch beer, traditional German sausages.",
+      "events_and_festivals": "Cologne Carnival, Christopher Street Day"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 10,
+    "fields": {
+      "name": "Frankfurt",
+      "country": 3,
+      "description": "Frankfurt is a major financial hub in Germany, known for its modern skyline, historical sites, and international trade fairs.",
+      "current_population": 0.7,
+      "permanent_address_population": 0.7,
+      "geographic_location": "Western Germany, situated on the Main River.",
+      "tourist_attractions": "Römer, St. Bartholomew's Cathedral, Palmengarten",
+      "culinary_delights": "Frankfurter sausages, Grüne Soße (green sauce).",
+      "events_and_festivals": "Frankfurt Book Fair, Museumsuferfest"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 9,
+    "fields": {
+      "name": "Hamburg",
+      "country": 3,
+      "description": "Hamburg is a port city in northern Germany, known for its maritime heritage, cultural offerings, and lively nightlife.",
+      "current_population": 1.8,
+      "permanent_address_population": 1.8,
+      "geographic_location": "Northern Germany, situated on the Elbe River.",
+      "tourist_attractions": "Speicherstadt, Miniatur Wunderland, Reeperbahn",
+      "culinary_delights": "Hamburgers, Labskaus, Finkenwerder Scholle.",
+      "events_and_festivals": "Hamburg DOM, Hafengeburtstag"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 8,
+    "fields": {
+      "name": "Munich",
+      "country": 3,
+      "description": "Munich is the capital of Bavaria, Germany, known for its rich history, beer gardens, and traditional architecture.",
+      "current_population": 1.5,
+      "permanent_address_population": 1.5,
+      "geographic_location": "Southern Germany, situated on the River Isar.",
+      "tourist_attractions": "Marienplatz, Neuschwanstein Castle, Nymphenburg Palace",
+      "culinary_delights": "Bavarian cuisine, featuring pretzels, weißwurst, and sauerkraut.",
+      "events_and_festivals": "Oktoberfest, Munich Film Festival"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 7,
+    "fields": {
+      "name": "Berlin",
+      "country": 3,
+      "description": "Berlin is the capital and largest city of Germany, known for its artistic scene, historic landmarks, and vibrant nightlife.",
+      "current_population": 3.6,
+      "permanent_address_population": 3.6,
+      "geographic_location": "Eastern Germany, situated on the River Spree.",
+      "tourist_attractions": "Brandenburg Gate, Berlin Wall, Museum Island",
+      "culinary_delights": "Currywurst, schnitzel, traditional German pastries.",
+      "events_and_festivals": "Berlin International Film Festival, Christopher Street Day"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 6,
+    "fields": {
+      "name": "Washington",
+      "country": 2,
+      "description": "Washington, D.C. is the capital of the United States, known for its historic landmarks, political significance, and museums.",
+      "current_population": 0.7,
+      "permanent_address_population": 0.7,
+      "geographic_location": "Eastern United States, situated on the Potomac River.",
+      "tourist_attractions": "White House, National Mall, Lincoln Memorial",
+      "culinary_delights": "Diverse cuisine, reflecting the multicultural nature of the city.",
+      "events_and_festivals": "National Cherry Blossom Festival, Independence Day celebrations"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 5,
+    "fields": {
+      "name": "New York",
+      "country": 2,
+      "description": "New York City is the largest city in the United States, known for its iconic skyline, cultural diversity, and global influence.",
+      "current_population": 8.4,
+      "permanent_address_population": 8.4,
+      "geographic_location": "Northeastern United States, situated on the Hudson River.",
+      "tourist_attractions": "Statue of Liberty, Times Square, Central Park",
+      "culinary_delights": "Diverse culinary scene, with a wide range of international cuisines.",
+      "events_and_festivals": "New Year's Eve in Times Square, Tribeca Film Festival"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 4,
+    "fields": {
+      "name": "Boston",
+      "country": 2,
+      "description": "Boston is a historic city in the United States, known for its role in American history, prestigious universities, and cultural heritage.",
+      "current_population": 0.7,
+      "permanent_address_population": 0.7,
+      "geographic_location": "Northeastern United States, situated on the Massachusetts Bay.",
+      "tourist_attractions": "Freedom Trail, Fenway Park, Boston Tea Party Ships",
+      "culinary_delights": "Seafood, clam chowder, Boston cream pie.",
+      "events_and_festivals": "Boston Marathon, July Fourth celebrations"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 3,
+    "fields": {
+      "name": "Burgas",
+      "country": 1,
+      "description": "Burgas is a city in Bulgaria, known for its Black Sea coastline, vibrant summer tourism, and cultural festivals.",
+      "current_population": 0.2,
+      "permanent_address_population": 0.2,
+      "geographic_location": "Eastern Bulgaria, situated on the Black Sea coast.",
+      "tourist_attractions": "Sea Garden, Burgas Bridge, Alexandrovska Street",
+      "culinary_delights": "Bulgarian cuisine, featuring dishes like banitsa and kavarma.",
+      "events_and_festivals": "Burgas Sea Festival, Spirit of Burgas music festival"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 2,
+    "fields": {
+      "name": "Plovdiv",
+      "country": 1,
+      "description": "Plovdiv is a historic city in Bulgaria, known for its ancient ruins, cultural heritage, and lively arts scene.",
+      "current_population": 0.3,
+      "permanent_address_population": 0.3,
+      "geographic_location": "Southern Bulgaria, situated on the Maritsa River.",
+      "tourist_attractions": "Old Town, Roman Theatre, Kapana Creative District",
+      "culinary_delights": "Bulgarian cuisine, featuring dishes like kavarma and meshana skara.",
+      "events_and_festivals": "Plovdiv International Fair, Night of Museums and Galleries"
+    }
+  },
+  {
+    "model": "world.city",
+    "pk": 1,
+    "fields": {
+      "name": "Sofia",
+      "country": 1,
+      "description": "Sofia is the capital and largest city of Bulgaria, known for its blend of history and modernity, cultural institutions, and vibrant nightlife.",
+      "current_population": 1.2,
+      "permanent_address_population": 1.2,
+      "geographic_location": "Western Bulgaria, situated at the foot of Vitosha Mountain.",
+      "tourist_attractions": "Alexander Nevsky Cathedral, Vitosha Mountain, National Palace of Culture",
+      "culinary_delights": "Bulgarian cuisine, featuring dishes like kebapche and tarator.",
+      "events_and_festivals": "Sofia International Film Festival, Sofia Design Week"
+    }
   }
 ]
